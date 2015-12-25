@@ -22,15 +22,24 @@ CMAKE_REPOS=" \
 	liblxqt \
 	libsysstat \
 	lxqt-session \
+"
+
+CMAKE_REPOS=" \
 	lxqt-qtplugin \
 	lxqt-globalkeys \
 	lxqt-notificationd \
 	lxqt-about \
 	lxqt-common \
+"
+CMAKE_REPOS=" \
 	lxqt-config \
+"
+CMAKE_REPOS=" \
 	lxqt-admin \
 	lxqt-openssh-askpass \
 	lxqt-panel \
+"
+CMAKE_REPOS=" \
 	lxqt-policykit \
 	lxqt-powermanagement \
 	lxqt-runner \

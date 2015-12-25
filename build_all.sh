@@ -13,5 +13,12 @@
 # etc.
 
 ./build_all_autotools_projects.sh
-
-./build_all_cmake_projects.sh
+status=$?
+if [ $status -eq 0 ]
+then
+	./build_all_cmake_projects.sh
+	status=$?
+else
+	echo "./build_all_autotools_projects.sh failed." 1>&2
+fi
+exit $status

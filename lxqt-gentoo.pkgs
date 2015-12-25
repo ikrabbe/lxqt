@@ -1,0 +1,23 @@
+/home/ingo/install/lxqt/lib64/pkgconfig/
+  502  emerge -vqa dev-qt/qtx11extras
+  503  emerge -1vqa emerge --verbose --quiet --update dev-qt/designer:5 dev-qt/linguist-tools:5 dev-qt/qtcore:5 dev-qt/qtdbus:5 dev-qt/qtdeclarative:5 dev-qt/qtgraphicaleffects:5 dev-qt/qtgui:5 dev-qt/qtmultimedia:5 dev-qt/qtnetwork:5 dev-qt/qtopengl:5 dev-qt/qtprintsupport:5 dev-qt/qtscript:5 dev-qt/qtsql:5 dev-qt/qtsvg:5 dev-qt/qttest:5 dev-qt/qttranslations:5 dev-qt/qtwebkit:5 dev-qt/qtwidgets:5 dev-qt/qtxml:5 dev-qt/qtxmlpatterns:5
+  504  emerge -1vqa kde-frameworks/kwindowsystem
+  505  emerge -1vqa kde-frameworks/kwindowsystem:5
+  506  emerge -1vqa kde-frameworks/kwindowsystem:5
+  507  emerge x11-misc/xdg-user-dirs
+  508  emerge x11-misc/xdg-user-dirs
+  510  emerge -1vq dev-libs/libdbusmenu-qt
+  513  emerge -1vq dev-libs/libdbusmenu-qt
+  515  emerge -1vq dev-qt/qtconcurrent
+  519  emerge -1vqa kconfig
+  520  emerge -1vqa kde-framework(kconfig
+  521  emerge -1vqa kde-framework/kconfig
+  522  emerge -1vqa kde-frameworks/kconfig
+  523  emerge -1vqa kde-framework/kconfig
+  524  emerge -1vqa kde-frameworks/kconfig
+  535  emerge -1vqa kde-plasma/libkscreen
+  536  emerge -1vqa dev-libs/liboobs
+  537  emerge -1vqa kde-frameworks/solid
+  539  emerge -1Nuvqa sys-auth/polkit-qt
+  544  emerge -1vqa dev-util/gtk-doc
+  546  emerge -1vqa x11-libs/libfm-extra
